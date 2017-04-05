@@ -1,5 +1,5 @@
 import numpy as np
-
+app.py
 __all__ = ["Game", "Role", "Action"]
 
 _role_template = {
@@ -51,7 +51,7 @@ class Game:
     def board(self):
         return self._board
 
-# test2
+
 class Board:
     def __init__(self, players: dict):
         self._players = players
